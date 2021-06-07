@@ -2,17 +2,16 @@ package ejercicio1;
 
 import java.awt.*;
 
+import cosasGenerales.Ventana;
+
 public class Ejercicio1Main {
 
 	public static void main(String[] args) {
 		
-		Frame ejermploGrid = new Frame();
-		ejermploGrid.setTitle("Ejemplo Grid");
-		ejermploGrid.setSize(300,300);
-		ejermploGrid.setVisible(true);
+		Ventana ejercicio1 = new Ventana("Ejercicio 1");
 		
 		Panel panelPrincipal = new Panel(new GridLayout(4,5));
-		ejermploGrid.add(panelPrincipal);
+		ejercicio1.add(panelPrincipal);
 		
 		Panel panel0 =  new Panel(new GridLayout(2,2));
 		panel0.add(new Button("A"));
