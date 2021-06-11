@@ -19,6 +19,10 @@ public class Ejercicio2CheckBox {
 		
 	}
 	
+	/**
+	 * Devuelve el panel creado.
+	 * @return Panel panelSeleccion
+	 */
 	public Panel getPanel() {
 		return panelSeleccion;
 	}

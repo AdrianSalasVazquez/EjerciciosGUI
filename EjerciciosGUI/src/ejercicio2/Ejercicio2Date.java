@@ -29,6 +29,10 @@ public class Ejercicio2Date {
 		
 	}
 	
+	/**
+	 * Devuelve el panel creado.
+	 * @return Panel panelFecha
+	 */
 	public Panel getPanel() {
 		return panelFecha;
 	}

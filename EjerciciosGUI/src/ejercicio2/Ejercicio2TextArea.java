@@ -10,6 +10,10 @@ public class Ejercicio2TextArea {
 		panelTexto.add(new TextArea(cols, rows));
 	}
 	
+	/**
+	 * Devuelve el panel creado.
+	 * @return Panel panelTexto
+	 */
 	public Panel getPanel() {
 		return panelTexto;
 	}

@@ -11,6 +11,10 @@ public class Ejercicio2Botones {
 		panelBotones.add(new Button(nombre2));
 	}
 	
+	/**
+	 * Devuelve el panel creado.
+	 * @return Panel panelBotones
+	 */
 	public Panel getPanel() {
 		return panelBotones;
 	}

@@ -10,6 +10,10 @@ public class Ejercicio2TextField {
 		panelTexto.add(new TextField(tamanoTexto));
 	}
 	
+	/**
+	 * Devuelve el panel creado.
+	 * @return Panel panelTexto
+	 */
 	public Panel getPanel() {
 		return panelTexto;
 	}
