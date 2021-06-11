@@ -17,7 +17,8 @@ public class Ejercicio6Main {
 		ejercicio6.add(panelTelefono);
 		
 		Panel panelResultado = new Panel();
-		TextArea resultado = new TextArea(1,25);
+		TextArea resultado = new TextArea("",1,25, TextArea.SCROLLBARS_NONE);
+		resultado.setEditable(false);
 		panelResultado.add(resultado);
 		panelTelefono.add(panelResultado, BorderLayout.NORTH);
 		
